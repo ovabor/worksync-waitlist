@@ -46,12 +46,6 @@ export default function Home() {
               >
                 How It Works
               </a>
-              <a
-                href="#pricing"
-                className="text-slate-600 dark:text-gray-300 hover:text-[#3AC282] dark:hover:text-[#3AC282] transition-colors"
-              >
-                Early Access
-              </a>
               {/* <ThemeToggle /> */}
               <Link
                 href="#waitlistform"
@@ -365,7 +359,7 @@ export default function Home() {
       </section>
 
       {/* Social Proof Section */}
-      <section className="py-20 bg-slate-50 dark:bg-gray-800 transition-colors duration-300">
+      {/* <section className="py-20 bg-slate-50 dark:bg-gray-800 transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
@@ -434,15 +428,15 @@ export default function Home() {
             <div className="inline-flex items-center bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-6 py-3 rounded-full">
               <Users className="h-5 w-5 mr-2" />
               <span className="font-semibold">
-                {/* {waitlistCount.toLocaleString()}+ companies on the waitlist */}
+                {waitlistCount.toLocaleString()}+ companies on the waitlist
               </span>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Urgency Section */}
-      <section
+      {/* <section
         id="waitlistform"
         className="py-20 bg-gradient-to-br from-[#3AC282] to-[#171717] text-white"
       >
@@ -508,10 +502,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Final CTA Section */}
-      <section className="py-20 bg-slate-900 text-white">
+      <section id="waitlistform" className="py-20 bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Don't Miss Out on the Future of Work
@@ -563,7 +557,7 @@ export default function Home() {
                     How It Works
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#" className="hover:text-white transition-colors">
                     Security
                   </a>
@@ -572,7 +566,7 @@ export default function Home() {
                   <a href="#" className="hover:text-white transition-colors">
                     Integrations
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
 
